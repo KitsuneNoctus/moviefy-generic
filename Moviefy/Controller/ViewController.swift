@@ -73,6 +73,10 @@ extension ViewController: UICollectionViewDataSource {
         default:
             return sections[indexPath.section].configureCell(collectionView: collectionView, indexPath: indexPath)
         }
+//        let imageURL : URL?
+//        let imageBase = MovieDB.baseImageURL
+//        imageURL = imageBase.appendingPathComponent(movie.posterPath)
+//        coverImg.kf.setImage(with: imageURL)
         
     }
 }
